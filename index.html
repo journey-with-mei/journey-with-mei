@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Malaysia Tour Guide Extraordinaire</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
+        :root {
+            --primary-color: #00A896;
+            --secondary-color: #02C39A;
+            --text-color: #05668D;
+            --light-color: #F0F3BD;
+            --dark-color: #028090;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header h1 {
+            font-size: 1.5rem;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 300;
+            transition: 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: var(--light-color);
+        }
+        
+        .hero {
+            background: url('malaysia-background.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 10;
+        }
+        
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+        
+        .btn:hover {
+            background: var(--secondary-color);
+        }
+        
+        .section {
+            padding: 5rem 0;
+        }
+        
+        .section-head {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .section-head h3 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        
+        footer {
+            background: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content container">
+            <h2>Discover Malaysia's Hidden Treasures</h2>
+            <p>Licensed Tour Guide | Travel Enthusiast | Cultural Explorer</p>
+            <a href="#contact" class="btn">Book Your Adventure</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-head">
+                <h3>About Me</h3>
+            </div>
+            <p>Hello, I'm [Your Name], your gateway to the wonders of Malaysia. With [X] years of experience as a licensed tour guide, I'm passionate about sharing the rich tapestry of cultures, breathtaking landscapes, and hidden gems that make Malaysia truly special. My travels across [mention countries] have broadened my perspective, allowing me to offer unique insights and unforgettable experiences to my clients.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-head">
+                <h3>My Services</h3>
+            </div>
+            <ul>
+                <li>Customized tours of Peninsular Malaysia</li>
+                <li>Immersive cultural experiences</li>
+                <li>Off-the-beaten-path adventures</li>
+                <li>Culinary journeys through Malaysian cuisine</li>
+                <li>Historical expeditions to UNESCO sites</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-head">
+                <h3>Journey Through My Lens</h3>
+            </div>
+            <div class="gallery">
+                <!-- Replace with your actual images -->
+                <img src="image1.jpg" alt="Petronas Towers at night">
+                <img src="image2.jpg" alt="Traditional longhouse in Sarawak">
+                <img src="image3.jpg" alt="Street art in Penang">
+                <img src="image4.jpg" alt="Orangutan in Borneo">
+                <img src="image5.jpg" alt="Tea plantations in Cameron Highlands">
+                <img src="image6.jpg" alt="Snorkeling in Perhentian Islands">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-head">
+                <h3>Let's Plan Your Malaysian Adventure</h3>
+            </div>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: +60 1X-XXXX XXXX</p>
+            <p>Instagram: @your_insta_handle</p>
+            <p>Facebook: Your Name Tours</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name - Unveiling Malaysia's Wonders</p>
+        </div>
+    </footer>
+</body>
+</html>
