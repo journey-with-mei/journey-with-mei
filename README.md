@@ -5,7 +5,7 @@
 - 🍜 Foodie adventures
 - 🏙️ Cultural journeys
 - 🌿 Off-the-beaten-path tours
-- English, Malay, Mandarin
+- 🗣️ Fluent in English, Malay, Mandarin
   
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
