@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @journey-with-mei
 - 💞️ Penang-born, Malaysia-loving tour guide
-- 👀 I’m interested in ...
 - 🌱 Passionate about sharing Malaysia's hidden gems & culture
 - 🏝️ Penang specialist
 - 🍜 Foodie adventures
